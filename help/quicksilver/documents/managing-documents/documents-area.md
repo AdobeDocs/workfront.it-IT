@@ -27,9 +27,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3eb5040e7f756f9827ad0a8780fbf7199bc68443
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '924'
 ht-degree: 1%
 ---
 # L’area Documenti
@@ -65,6 +65,11 @@ Se per il documento è impostata la verifica, la sezione Dettagli include inform
 È possibile fare clic sull&#39;intestazione Dettagli per passare all&#39;area Dettagli documento completa quando sono necessarie tutte le informazioni relative a un documento.
 
 ![Area documenti](assets/documents-area-v2-350x199.png)
+
+<span class="preview">In anteprima:
+![Pannello di riepilogo area documenti](assets/legacy-document-summary.png)
+</span>
+
 
 Per informazioni sul Riepilogo, vedere [Riepilogo per la panoramica dei documenti](../../documents/managing-documents/summary-for-documents.md).
 

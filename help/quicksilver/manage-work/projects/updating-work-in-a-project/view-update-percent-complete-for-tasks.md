@@ -30,14 +30,14 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 900be426cec2556c4c035124fc1c3bd094896340
 workflow-type: tm+mt
-source-wordcount: 692
+source-wordcount: '700'
 ht-degree: 5%
-
 ---
-
 # Visualizzare e aggiornare la percentuale di completamento delle attività
+
+{{highlighted-preview}}
 
 <!--Audited: 05/2025-->
 
@@ -130,11 +130,15 @@ Old:
 
 * **Nel pannello Riepilogo di un&#39;attività**: puoi aggiornare la percentuale di completamento di un&#39;attività nella parte superiore del pannello Riepilogo quando visualizzi l&#39;attività nelle seguenti aree:
 
-   * Elenco o rapporto attività
-   * Scheda orario
-   * Bilanciatore dei carichi di lavoro
+  * Elenco o rapporto attività
+  * Scheda orario
+  * Bilanciatore dei carichi di lavoro
 
   ![Percentuale di aggiornamento nel riepilogo attività evidenziata](assets/update-percent-complete-in-task-summary-highlighted.png)
+
+  <span class="preview">In anteprima:
+  ![Percentuale di aggiornamento nel riepilogo attività evidenziata](assets/percent-complete-summary.png)
+  </span>
 
   Per ulteriori informazioni, vedere [Panoramica di riepilogo](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
 
@@ -147,8 +151,8 @@ Old:
 * Quando si contrassegna un&#39;attività come completata al 100%, lo Stato dell&#39;attività viene aggiornato a Completo. Lo stato di un problema viene aggiornato a Chiuso.
 * Il completamento di un’attività aggiorna anche la percentuale di completamento dell’attività padre e del progetto.
 * Esistono i seguenti scenari per le attività e i progetti padre:
-   * Non è possibile aggiornare al 100% la percentuale di completamento di un&#39;attività padre quando la modalità di completamento riepilogo del progetto è impostata su Automatico e le sottoattività non sono completate.
-   * È possibile aggiornare al 100% la percentuale di completamento di un&#39;attività padre o di un progetto quando la Modalità di completamento riepilogo del progetto è impostata su Manuale e le sottoattività sono completate o incomplete.
+  * Non è possibile aggiornare al 100% la percentuale di completamento di un&#39;attività padre quando la modalità di completamento riepilogo del progetto è impostata su Automatico e le sottoattività non sono completate.
+  * È possibile aggiornare al 100% la percentuale di completamento di un&#39;attività padre o di un progetto quando la Modalità di completamento riepilogo del progetto è impostata su Manuale e le sottoattività sono completate o incomplete.
 
   Per ulteriori informazioni, vedere [Modifica progetti](../manage-projects/edit-projects.md).
 

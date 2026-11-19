@@ -25,13 +25,11 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
+source-git-commit: 3dea3d85473b359d2178921ba019038df04c3005
 workflow-type: tm+mt
-source-wordcount: 4292
+source-wordcount: '4301'
 ht-degree: 1%
-
 ---
-
 # Registra ore
 
 <!--Audited: 5/2025-->
@@ -282,7 +280,13 @@ La scheda orario corrente viene visualizzata per impostazione predefinita.
 
    ![pannello di riepilogo per l&#39;attività aperta nella scheda orario](assets/summary-panel-for-task-opened-in-timesheet-redesigned-timesheet.png)
 
-   L’aggiornamento viene visualizzato nell’area Aggiornamenti dell’elemento di lavoro associato all’ora registrata.
+   <span class="preview">In anteprima:
+
+   ![pannello di riepilogo per l&#39;attività aperta nella scheda orario](assets/summary-timesheet.png)
+
+   </span>
+
+   L’aggiornamento viene visualizzato nella scheda Aggiornamenti dell’elemento di lavoro associato all’ora registrata.
 
    >[!TIP]
    >

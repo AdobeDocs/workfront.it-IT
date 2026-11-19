@@ -32,13 +32,11 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 769a19f560ba582ef696eb48c144baf41b373c5f
 workflow-type: tm+mt
-source-wordcount: 909
+source-wordcount: '910'
 ht-degree: 6%
-
 ---
-
 # Modificare i problemi in un elenco
 
 <!--Audited: 10/2025-->
@@ -132,8 +130,8 @@ Quando modifichi i problemi in un elenco, tieni presente quanto segue:
 * Puoi modificare qualsiasi campo relativo ai problemi visualizzato nell’elenco e che disponi delle autorizzazioni necessarie per aggiornare.
 * Puoi modificare un problema nei seguenti elenchi:
 
-   * La sezione Problemi di un progetto o di un’attività
-   * Un report di problemi
+  * La sezione Problemi di un progetto o di un’attività
+  * Un report di problemi
 
 Per modificare in linea un problema:
 
@@ -181,9 +179,22 @@ Puoi modificare un problema in un elenco utilizzando il pannello Riepilogo.
    | Ore ![Tempo di registrazione](assets/log-time-icon-in-summary.png) | Fai clic su per registrare le ore. |
    | Approvazioni ![Icona Approvazioni](assets/approvals-icon-in-summary.png) | Fai clic su per aggiungere approvazioni problemi. |
 
-   *Se la tua organizzazione utilizza l’archiviazione cloud Adobe per i documenti, non puoi aggiungere documenti ai problemi di archiviazione cloud Adobe nel pannello Riepilogo.
+<!--
+uncomment for prod
 
-   Per informazioni, consulta [Panoramica sulla gestione dei documenti per progetti e oggetti correlati](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+   | Icon  |Action |
+   |---|---|
+   | Updates ![Updates icon](assets/updates.png) |Click **New comment** to add an update to the issue. |
+   | Documents* ![Documents icon](assets/documents.png) |Click **Click here to add** to add documents to the issue. |
+   | Details ![Details icon](assets/details.png) |Click to update information about the issue. |
+   | Hours ![Log time](assets/log-time.png)  |Click to log hours. |
+   | Approvals ![Approvals icon](assets/approvals.png)  |Click to add issue approvals.  |
+
+-->
+
+*Se la tua organizzazione utilizza l’archiviazione cloud Adobe per i documenti, non puoi aggiungere documenti ai problemi di archiviazione cloud Adobe nel pannello Riepilogo.
+
+Per informazioni, consulta [Panoramica sulla gestione dei documenti per progetti e oggetti correlati](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
 
 1. (Facoltativo) Fai di nuovo clic sull&#39;icona **Apri riepilogo** oppure sull&#39;icona **X** in alto a destra del riepilogo per chiudere il pannello e modificare il problema in linea.
