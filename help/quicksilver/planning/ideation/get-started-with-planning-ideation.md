@@ -19,7 +19,7 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4beee4cb9c4d0f3f2ef037621d508868229ba25e
+source-git-commit: 11d5c57468270943e5b8a9fecf3b65af507e2c75
 workflow-type: tm+mt
 source-wordcount: '1540'
 ht-degree: 0%
@@ -214,7 +214,7 @@ Lo spazio Ideazione utilizza Adobe CX Enterprise Coworker come interfaccia di ri
 
 Gli utenti possono porre domande di follow-up e perfezionare una breve conversazione invece di ottenere un singolo risultato.
 
-Quando un breve documento è associato a un record live di Workfront Planning, Coworker non lo sovrascrive in modo che il piano sottostante rimanga invariato. Il record viene sostituito solo quando si esporta il documento in Workfront Planning.
+Quando un breve documento è associato a un record live di Workfront Planning, Coworker non lo sovrascrive in modo che il piano sottostante rimanga invariato. Il record viene sovrascritto solo quando si esporta il documento in Workfront Planning.
 
 <!--
 Previous intro but oped for the more direct one above: 

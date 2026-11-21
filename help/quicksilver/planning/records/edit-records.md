@@ -30,18 +30,18 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 284f02c34a04b176c60f50443b9f03b789d8416d
+source-git-commit: 11d5c57468270943e5b8a9fecf3b65af507e2c75
 workflow-type: tm+mt
-source-wordcount: '3235'
+source-wordcount: '3174'
 ht-degree: 1%
 ---
 # Modificare i record
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo il rilascio in anteprima, le stesse funzioni sono disponibili mensilmente nell’ambiente di produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
-
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -173,7 +173,7 @@ Old:
   * Campi di sistema (Creato da, Data di creazione, Autore ultima modifica, Data ultima modifica, Data di approvazione, Approvato da, ID record)
 * Se i record visualizzati sono collegati ad altri record, le nuove informazioni dei record che si sta modificando verranno applicate ai record collegati in tutte le aree di lavoro in cui il record è collegato.
 * Non è possibile modificare i record in blocco. <!--this will probably change-->
-* Gli URL vengono riconosciuti come collegamenti nei tipi di campi di testo a riga singola solo quando iniziano con: http://, https://, ftp:// o www. .
+* Gli URL vengono riconosciuti come collegamenti nei tipi di campi di testo a riga singola solo quando iniziano con: http://, https://, ftp:// o <www>. .
 * È possibile aggiungere un&#39;immagine di copertina a ogni record. L&#39;immagine è univoca per ogni record e non si applica a tutti i record contemporaneamente. Per informazioni, vedere [Aggiungere un&#39;immagine di copertina a un record](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
 * È possibile modificare l&#39;ordine dei campi nella pagina dei dettagli di un record. Per ulteriori informazioni, vedere [Gestire il layout della pagina record](/help/quicksilver/planning/records/manage-the-record-page.md).
 * È possibile modificare le date di inizio e di fine di un record ridimensionando o riposizionando i record nelle visualizzazioni Timeline e Calendario.
@@ -389,8 +389,8 @@ Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/crea
    >  * Ricercare campi da altri record creati tramite la connessione di tipi di record. Per ulteriori informazioni, vedere [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md).
    >  * Campi dei tipi seguenti: Creato da, Data di creazione, Ultima modifica da, Data ultima modifica, Campi formula.
 
-1. <span class="preview">(Facoltativo) Fare clic sul cerchio del colore a sinistra del nome del record per modificare il colore del record. </span>
-   <span class="preview">I record vengono assegnati automaticamente ai colori al momento della creazione. Fai clic su **Campioni** o **Personalizzati** per selezionare un nuovo colore.</span>
+1. (Facoltativo) Fare clic sul cerchio del colore a sinistra del nome del record per modificare il colore del record.
+Ai record vengono assegnati automaticamente colori al momento della creazione. Fai clic su **Campioni** o **Personalizzati** per selezionare un nuovo colore.
 
 1. (Facoltativo) Fare clic su **Aggiungi copertina** per aggiungere una copertina al record. Per ulteriori informazioni, vedere [Aggiungere una copertina a un record](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
 
@@ -448,8 +448,8 @@ Per informazioni, vedere [Creare record](/help/quicksilver/planning/records/crea
    >  * Campi dei tipi seguenti: Creato da, Data di creazione, Ultima modifica da, Data ultima modifica, Campi formula.
 
 1. (Facoltativo) Per visualizzare la descrizione di un campo, fai clic sull’icona delle informazioni a destra di qualsiasi campo visualizzato.
-1. <span class="preview">(Facoltativo) Fare clic sul cerchio del colore a sinistra del nome del record per modificare il colore del record. </span>
-   <span class="preview">I record vengono assegnati automaticamente ai colori al momento della creazione. Fai clic su **Campioni** o **Personalizzati** per selezionare un nuovo colore.</span>
+1. (Facoltativo) Fare clic sul cerchio del colore a sinistra del nome del record per modificare il colore del record.
+Ai record vengono assegnati automaticamente colori al momento della creazione. Fai clic su **Campioni** o **Personalizzati** per selezionare un nuovo colore.
 
    ![Casella di selezione colori per la casella dei dettagli del record](assets/color-picker-box-for-record-color-in-details-page.png)
 
