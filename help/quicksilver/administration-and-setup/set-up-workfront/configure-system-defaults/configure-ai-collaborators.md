@@ -17,9 +17,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ac384fb96e24d3c0ea825cb212262966dbd5b7d2
+source-git-commit: 12d853c199743583110c988ef2cfbec164d69378
 workflow-type: tm+mt
-source-wordcount: '1956'
+source-wordcount: '1992'
 ht-degree: 2%
 ---
 # Configurare i collaboratori IA
@@ -156,7 +156,12 @@ Per un elenco delle best practice per la creazione di un agente che possa funzio
    >Se si è un amministratore di gruppo, in questo campo vengono visualizzati solo i gruppi per i quali si è un amministratore. Gli amministratori dei gruppi devono selezionare almeno un gruppo.
 
 1. Nell&#39;area **Scegli l&#39;origine dell&#39;agente**, seleziona se desideri <span class="preview">utilizzare Adobe Native</span>, connettere un agente creato in una piattaforma comune come Copilot o utilizzare un agente personalizzato.
-1. <span class="preview">(Condizionale) Se si seleziona Adobe Native, verificare che Adobe CX Coworker sia abilitato per la propria organizzazione e che si desideri utilizzare l&#39;agente Adobe Native pronto all&#39;uso.</span>
+1. <span class="preview">(Condizionale) Se si seleziona Adobe Native, selezionare il collaboratore che si desidera utilizzare: il collaboratore CX Enterprise Coworker o un collaboratore AI predefinito, ad esempio il coordinatore acquisizione. Per ulteriori informazioni sui collaboratori predefiniti, inclusa una descrizione, vedere [Configurare i collaboratori di IA predefiniti](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-prebuilt-ai-collaborators.md).</span>
+
+   >[!NOTE]
+   >
+   ><span class="preview">Dopo aver attivato un Collaboratore IA predefinito, il provisioning richiede circa 30 secondi. Viene visualizzato un elemento di rotazione fino a quando Collaborator non è pronto.</span>
+
 1. (Condizionale) Se utilizzi un agente di una piattaforma comune, inserisci i dettagli di autenticazione per la piattaforma dell’agente:
 
    | Piattaforma | Autenticazione richiesta |
@@ -254,7 +259,7 @@ Dopo aver salvato il coordinatore del progetto, aggiungi il campo **Coordinatore
 
 Per istruzioni, vedere [Personalizzare le intestazioni degli oggetti utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
-Per ulteriori informazioni sul coordinatore del progetto, incluso come assegnarlo ai progetti, vedere [Utilizzare il coordinatore del progetto &#x200B;](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md).
+Per ulteriori informazioni sul coordinatore del progetto, incluso come assegnarlo ai progetti, vedere [Utilizzare il coordinatore del progetto ](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md).
 
 </div>
 
