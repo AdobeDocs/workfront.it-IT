@@ -5,10 +5,10 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 654328db7759fdbcf472017936b565ce17f10a54
+source-git-commit: fe229b1cc5608a4a5ac999fbcaeb1a8c1607bc42
 workflow-type: tm+mt
-source-wordcount: '1655'
-ht-degree: 13%
+source-wordcount: '1708'
+ht-degree: 12%
 ---
 
 # Panoramica sulla versione del primo trimestre 2027
@@ -32,7 +32,7 @@ I miglioramenti in questa pagina sono disponibili nell’ambiente di anteprima. 
 >
 >* [!BADGE Versione simultanea]{type=Neutral}
 >   Queste funzioni vengono rilasciate contemporaneamente negli ambienti di anteprima e produzione a causa di situazioni tecniche, come le pianificazioni di rilascio di altri prodotti Adobe che fanno parte della funzione.
->* [!BADGE &#x200B; fuori pianificazione]{type=Neutral}
+>* [!BADGE  fuori pianificazione]{type=Neutral}
 >   Queste funzioni vengono rilasciate al di fuori della pianificazione standard del rilascio di Workfront.
 
 ## Miglioramenti in Adobe Workfront
@@ -141,6 +141,15 @@ I miglioramenti in questa pagina sono disponibili nell’ambiente di anteprima. 
         </tr>
         <tr>
             <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md">Configurare il coordinatore acquisizione Collaboratore IA predefinito</a></p>
+                <p>Gli amministratori possono ora configurare il coordinatore dell’acquisizione, un collaboratore AI predefinito, come agente di lavoro che controlla i problemi relativi a informazioni mancanti, non chiare o incoerenti.</p>
+            </td>
+            <td><p>22 novembre 2026</p></td>
+            <td><p>17 dicembre 2026</p></td>
+            <td><p>21 gennaio 2027</p></td>
+        </tr>
+        <tr>
+            <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md">Utilizzare i playbook di scrittura per creare agenti di lavoro</a></p>
                 <p>[!BADGE Versione concorrente]{type=Neutral}</p>
                 <p>È ora possibile utilizzare Writer Playbook per creare agenti di lavoro.</p>
@@ -152,7 +161,7 @@ I miglioramenti in questa pagina sono disponibili nell’ambiente di anteprima. 
         <tr>
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md">Agenti di lavoro: supporto nativo di Adobe</a></p>
-                <p>È ora possibile creare un agente di lavoro che utilizza Adobe CX Coworker senza configurare una piattaforma esterna o immettere credenziali esterne.</p>
+                <p>Ora puoi creare un agente di lavoro che utilizza CX Enterprise Coworker collaborator, un agente CX Enterprise Coworker basato su Adobe Agent Orchestrator, senza configurare una piattaforma esterna o immettere credenziali esterne.</p>
             </td>
             <td><p>29 ottobre 2026</p></td>
             <td><p>12 novembre 2026</p></td>
@@ -423,7 +432,7 @@ Il Visualizzatore bozze desktop è stato aggiornato alla versione 2.3.0. Questo 
 
 * Il framework sottostante (Electron) è stato aggiornato all’ultima versione, che viene eseguita su Chrome versione 156, per miglioramenti delle prestazioni e della sicurezza.
 
-Per informazioni sul download e l&#39;aggiornamento del Visualizzatore bozze desktop, vedere [Aggiornare il Visualizzatore bozze desktop](https://experienceleague.adobe.com/it/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer).
+Per informazioni sul download e l&#39;aggiornamento del Visualizzatore bozze desktop, vedere [Aggiornare il Visualizzatore bozze desktop](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer).
 
 ## Annunci
 
@@ -480,7 +489,7 @@ Per informazioni sulle percentuali dei ruoli, vedere [Creare e gestire ruoli](/h
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=it).
+For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 
