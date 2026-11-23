@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 8789c5c75e104be60de42e76a8951e9380b112ef
+source-git-commit: 27060a08f07aea5fb0d5ac18b8f903ad407510e6
 workflow-type: tm+mt
-source-wordcount: '1409'
+source-wordcount: '1464'
 ht-degree: 3%
 ---
 # Panoramica sulla sezione Aggiornamenti
@@ -350,6 +350,8 @@ Quando visualizzi gli aggiornamenti per utenti e team, considera quanto segue:
   * Storie
   * Schede orario
   * Iterazioni
+
+* Nella sezione Aggiornamenti di un team vengono visualizzati gli aggiornamenti apportati da qualsiasi membro del team, inclusi quelli relativi a progetti a cui non è associato il team. Gli aggiornamenti non vengono filtrati dai progetti o dagli altri oggetti a cui è associato il team. Per visualizzare gli aggiornamenti per un progetto specifico, vai alla sezione Aggiornamenti di quel progetto.
 
 * La scheda Aggiornamenti di sistema dell&#39;area Aggiornamenti per gli utenti viene compilata con aggiornamenti ad altri oggetti. Di seguito sono riportati gli aggiornamenti che vengono visualizzati nella scheda Aggiornamenti di sistema del profilo dell’utente quando tali campi vengono tracciati nell’area Feed aggiornamenti di Configurazione:
 

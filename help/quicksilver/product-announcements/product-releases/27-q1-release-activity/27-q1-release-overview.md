@@ -5,10 +5,10 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 654328db7759fdbcf472017936b565ce17f10a54
+source-git-commit: fe229b1cc5608a4a5ac999fbcaeb1a8c1607bc42
 workflow-type: tm+mt
-source-wordcount: '1655'
-ht-degree: 13%
+source-wordcount: '1708'
+ht-degree: 12%
 ---
 
 # Panoramica sulla versione del primo trimestre 2027
@@ -141,6 +141,15 @@ I miglioramenti in questa pagina sono disponibili nell’ambiente di anteprima. 
         </tr>
         <tr>
             <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md">Configurare il coordinatore acquisizione Collaboratore IA predefinito</a></p>
+                <p>Gli amministratori possono ora configurare il coordinatore dell’acquisizione, un collaboratore AI predefinito, come agente di lavoro che controlla i problemi relativi a informazioni mancanti, non chiare o incoerenti.</p>
+            </td>
+            <td><p>22 novembre 2026</p></td>
+            <td><p>17 dicembre 2026</p></td>
+            <td><p>21 gennaio 2027</p></td>
+        </tr>
+        <tr>
+            <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md">Utilizzare i playbook di scrittura per creare agenti di lavoro</a></p>
                 <p>[!BADGE Versione concorrente]{type=Neutral}</p>
                 <p>È ora possibile utilizzare Writer Playbook per creare agenti di lavoro.</p>
@@ -152,7 +161,7 @@ I miglioramenti in questa pagina sono disponibili nell’ambiente di anteprima. 
         <tr>
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md">Agenti di lavoro: supporto nativo di Adobe</a></p>
-                <p>È ora possibile creare un agente di lavoro che utilizza Adobe CX Coworker senza configurare una piattaforma esterna o immettere credenziali esterne.</p>
+                <p>Ora puoi creare un agente di lavoro che utilizza CX Enterprise Coworker collaborator, un agente CX Enterprise Coworker basato su Adobe Agent Orchestrator, senza configurare una piattaforma esterna o immettere credenziali esterne.</p>
             </td>
             <td><p>29 ottobre 2026</p></td>
             <td><p>12 novembre 2026</p></td>
