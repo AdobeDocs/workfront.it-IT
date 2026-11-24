@@ -6,16 +6,12 @@ description: In qualità di amministratore di Adobe Workfront, puoi configurare 
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 71c1855166c2f950509cc8b7dc63792eabb6de16
+source-git-commit: ee344fe88ba7e4fb78a6d80ccbfe5cfa1ecbec47
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 6%
+source-wordcount: '357'
+ht-degree: 8%
 ---
 # Configurare i collaboratori IA predefiniti
-
-<span class="preview">Le informazioni contenute in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo il rilascio in anteprima, le stesse funzioni sono disponibili mensilmente nell’ambiente di produzione per i clienti che hanno abilitato i rilasci rapidi. </span>
-
-<span class="preview">Per informazioni sulle versioni rapide, vedere [Abilitare o disabilitare le versioni rapide per l&#39;organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 ## Panoramica
 
