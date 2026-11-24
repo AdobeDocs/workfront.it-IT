@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 311e830b96b3b2529301f1b8350037928512d411
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '499'
 ht-degree: 6%
 ---
 # Configurare l’area Impostazioni di un tipo di record
@@ -219,3 +219,12 @@ Puoi definire le funzionalità tra aree di lavoro diverse per un tipo di record 
    Le impostazioni sono disattivate per impostazione predefinita.
 
    Per ulteriori informazioni, vedere [Configurare le funzionalità tra aree di lavoro diverse per i tipi di record](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)
+
+
+## Configurare le autorizzazioni predefinite del record per un tipo di record
+
+È possibile impostare le autorizzazioni per tutti i record di un tipo di record configurando i valori predefiniti a livello di tipo di record.
+
+Per impostazione predefinita, tutti i nuovi record riceveranno le autorizzazioni impostate nell&#39;area Impostazioni tipo di record.
+
+Per informazioni, vedere [Impostare le autorizzazioni predefinite per i record](/help/quicksilver/planning/access/set-default-record-permissions.md).

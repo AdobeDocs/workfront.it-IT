@@ -20,9 +20,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
+source-git-commit: 311e830b96b3b2529301f1b8350037928512d411
 workflow-type: tm+mt
-source-wordcount: '2017'
+source-wordcount: '2096'
 ht-degree: 1%
 ---
 
@@ -172,14 +172,22 @@ Removed - more direct steps below:
 
    1. Espandere il menu delle viste a discesa nell&#39;angolo superiore sinistro dell&#39;elenco per selezionare un&#39;altra vista oppure fare clic su **Nuova vista** e crearne un&#39;altra.
 
+      Le viste vengono visualizzate in una delle seguenti sezioni:
+
+      * **Visualizzazioni di sistema**, create da Workfront.
+      * **Visualizzazioni condivise**, condivise con te da altri utenti.
+      * **Visualizzazioni personali**, create da te.
+
       >[!TIP]
       >
       >Le visualizzazioni sono condivise in tutto il sistema. Se si crea una visualizzazione Progetti per un tipo di record, è possibile visualizzarla su altri tipi di record che visualizzano progetti collegati.
 
    1. Passa il puntatore del mouse sul nome di una visualizzazione esistente e fai clic sul menu **Altro** ![Altro menu](assets/more-menu.png), quindi fai clic su una delle seguenti opzioni:
       * **Rinomina**, per assegnare un nuovo nome alla visualizzazione
-      * **Condividi**, per condividere la visualizzazione con altri
+      * **Condividi**, per condividere la visualizzazione con altri. Quando qualcuno condivide una visualizzazione con te, questa viene visualizzata nell&#39;area **Visualizzazioni condivise** del menu a discesa delle visualizzazioni.
       * **Elimina**, per eliminare la visualizzazione.
+      * **Copia con le preferenze** <span class="preview"><!--or **Copy with my changes**</span>-->, per copiare la visualizzazione con le modifiche apportate anziché copiare la visualizzazione originale condivisa con te. Questa opzione è disponibile solo nelle visualizzazioni di sistema e nelle visualizzazioni condivise.
+        <!--* <span class="preview">**Copy**, to copy the view</span>-->
 
       >[!NOTE]
       >
@@ -193,17 +201,31 @@ Removed - more direct steps below:
 
       >[!TIP]
       >
-      >Per applicare un filtro personalizzato, seleziona una delle seguenti opzioni per un valore di campo:
+      >* Per applicare un filtro personalizzato, seleziona una delle seguenti opzioni per un valore di campo:
       >
-      >* **Utente connesso** per fare riferimento all&#39;utente connesso nei campi relativi agli utenti.
+      >   * **Utente connesso** per fare riferimento all&#39;utente connesso nei campi relativi agli utenti.
       >
-      >* **I miei team** o **Il mio team principale** per fare riferimento ai tuoi team nei campi che si riferiscono ai team.
+      >   * **I miei team** o **Il mio team principale** per fare riferimento ai tuoi team nei campi che si riferiscono ai team.
       >
-      >* **I miei gruppi** o **Il mio gruppo predefinito** fa riferimento ai tuoi gruppi nei campi che fanno riferimento ai gruppi.
+      >   * **I miei gruppi** o **Il mio gruppo predefinito** fa riferimento ai tuoi gruppi nei campi che fanno riferimento ai gruppi.
       >
-      >* **La mia azienda** per fare riferimento alla tua azienda nei campi che si riferiscono alle aziende.
+      >   * **La mia azienda** per fare riferimento alla tua azienda nei campi che si riferiscono alle aziende.
       > 
-      >* **I miei ruoli** o **Il mio ruolo principale** per fare riferimento alle tue mansioni nei campi che fanno riferimento alle mansioni.
+      >   * **I miei ruoli** o **Il mio ruolo principale** per fare riferimento alle tue mansioni nei campi che fanno riferimento alle mansioni.
+      <!--
+        >* <span class="preview">When you filter by date, you can apply relative dates to make the filter more flexible. The results update every time the view loads without having to modify the filter. Choose from the following relative dates: </span>
+        >
+        >    <div class="preview">
+        >
+        >   * **Is today**
+        >   * **Is yesterday**
+        >   * **Is tomorrow**
+        >   * **Is this month**
+        >   * **Is last month**
+        >   * **Is next month**
+        >
+        >  </div>
+        -->
 
    1. Fai clic sull&#39;icona **Colonne** ![Icona Colonne](assets/columns-icon.png) per selezionare le colonne da visualizzare o da nascondere nella visualizzazione.
    1. Passa il puntatore del mouse sul nome di una colonna, fai clic sulla freccia rivolta verso il basso a sinistra del nome della colonna, quindi fai clic su una delle seguenti opzioni:
