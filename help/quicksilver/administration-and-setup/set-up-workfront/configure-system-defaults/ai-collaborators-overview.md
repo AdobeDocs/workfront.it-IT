@@ -16,20 +16,18 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 71c1855166c2f950509cc8b7dc63792eabb6de16
+source-git-commit: ee344fe88ba7e4fb78a6d80ccbfe5cfa1ecbec47
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '153'
 ht-degree: 2%
 ---
 # Collaboratori IA
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell&#39;ambiente di anteprima per tutti i clienti.</span>
-
 I collaboratori IA sono agenti di IA che puoi assegnare alle attività nello stesso modo in cui assegneresti una persona. Puoi inserire i collaboratori IA nei flussi di lavoro esistenti, consentendo al team di concentrarsi su ciò che conta di più.
 
-I tipi di Collaboratore IA disponibili includono Revisore IA, Agenti di lavoro<span class="preview"> e Coordinatori progetto</span>.
+I tipi di collaboratori IA disponibili includono Revisore IA, Agenti di lavoro e Coordinatori progetto.
 
-Per gli agenti di lavoro, è possibile connettere un agente da una piattaforma esterna supportata <span class="preview"> oppure, se nell&#39;organizzazione è abilitato Adobe CX Coworker, selezionare Adobe Native per utilizzare CX Enterprise Coworker Collaborator o un Collaboratore IA predefinito, ad esempio il Coordinatore acquisizione. L’opzione Adobe Native non richiede credenziali di piattaforma esterna. Per un elenco delle opzioni, vedere [Configurare i collaboratori di IA predefiniti](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-prebuilt-ai-collaborators.md).</span>
+Per gli agenti di lavoro, è possibile collegare un agente da una piattaforma esterna supportata, da un collaboratore AI predefinito, ad esempio il coordinatore dell’acquisizione, oppure, se nell’organizzazione è abilitato Adobe CX Coworker, dal collaboratore CX Enterprise Coworker. L’opzione Adobe Native non richiede credenziali di piattaforma esterna. Per un elenco delle opzioni, vedere [Configurare i collaboratori di IA predefiniti](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-prebuilt-ai-collaborators.md).
 
 ## Collaboratori di IA al lavoro
 

@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 238371e2026eaf216c2b3b554f5fe9d8101263e4
+source-git-commit: 311e830b96b3b2529301f1b8350037928512d411
 workflow-type: tm+mt
-source-wordcount: '3611'
+source-wordcount: '3609'
 ht-degree: 1%
 ---
 # Utilizzare gli elenchi avanzati
@@ -98,8 +98,15 @@ Di seguito sono riportati alcuni tipi di elenchi di oggetti di Workfront che uti
 | Visualizzazione di tutte le versioni di un documento | Progetto > Documenti > Dettagli documento > Tutte le versioni |
 | Visualizzazione amministrazione bacheche | Bacheche > Visualizzazione amministratore |
 | Documenti sull’archiviazione cloud di Adobe | Progetto, attività, problema, portfolio, programma, modello, attività modello > Documenti |
-| Elenchi di piani e iniziative di scenario | Menu principale > Scenari |
+| Elenchi di piani scenario <!--and initiatives--> | Menu principale > Scenari |
 | Elenchi di obiettivi e indicatori di progresso | <ul><li>Menu principale > Obiettivi</li><li>Menu principale > Obiettivi > Indicatori di avanzamento</li></ul> |
+
+
+<!--
+| List of expense types | Setup > Expense Types |
+| List of rate cards | Setup > Rate Cards |
+-->
+
 
 <!--
 
@@ -372,7 +379,7 @@ Per condividere una visualizzazione:
 
 Quando una visualizzazione viene condivisa con l&#39;utente e non si dispone dell&#39;autorizzazione per modificarla, è possibile copiarla e salvarla con un nuovo nome. È necessario apportare modifiche alla vista prima di poterla copiare.
 
-1. Nel menu a discesa Visualizzazioni, passa il puntatore del mouse sulla visualizzazione in **Visualizzazioni condivise** che hai modificato le impostazioni di e che desideri copiare, fai clic sul menu **Altro** ![Altro menu](assets/more-icon.png) e fai clic su **Copia con preferenze**.
+1. Nel menu a discesa Visualizzazioni, passa il puntatore del mouse sulla visualizzazione in **Visualizzazioni condivise** che hai modificato le impostazioni di e che desideri copiare, fai clic sul menu **Altro** ![Altro menu](assets/more-icon.png) e fai clic su **Copia con preferenze** <!--<span class="preview">or **Copy with my changes**</span>-->.
 
    Viene creata automaticamente una nuova vista. Il nome della visualizzazione copiata segue il seguente pattern: `Original view name (copy)`e viene visualizzato nella sezione **Visualizzazioni personali** delle visualizzazioni.
 
@@ -380,7 +387,7 @@ Quando una visualizzazione viene condivisa con l&#39;utente e non si dispone del
 
    >[!NOTE]
    >
-   >L&#39;opzione **Copia con preferenze** è disponibile solo se sono state apportate modifiche a una visualizzazione condivisa con l&#39;utente.
+   >L&#39;opzione **Copia con preferenze** <!--<span class="preview">or **Copy with my changes**</span>--> è disponibile solo se sono state apportate modifiche a una visualizzazione condivisa con l&#39;utente.
 
 ### Reimpostare una visualizzazione
 
@@ -458,6 +465,26 @@ I filtri consentono di ridurre la quantità di informazioni visualizzate nell’
 1. Nella casella Filtro fare clic su **Aggiungi condizione**.
 1. Seleziona un campo in base al quale filtrare.
 1. Seleziona un modificatore di filtro, ad esempio &quot;Is any of&quot; (È uno di), &quot;Is none of&quot; (È prima), &quot;Is before&quot; (È prima) o &quot;Is after&quot; (È dopo). Le opzioni del modificatore variano a seconda del tipo di campo in base al quale si sta filtrando.
+
+   <!--
+
+   >[!TIP]
+   >
+   >   <span class="preview">When you filter by date, you can apply relative dates to make the filter more flexible. The results update every time the view loads without having to modify the filter. Choose from the following relative dates: </span>
+   >
+   >    <div class="preview">
+   >
+   >   * **Is today**
+   >   * **Is yesterday**
+   >   * **Is tomorrow**
+   >   * **Is this month**
+   >   * **Is last month**
+   >   * **Is next month**
+   >
+   >  </div>
+
+   -->
+
 1. Seleziona il valore o i valori del campo. A seconda del tipo di campo in base al quale si sta filtrando, è possibile che venga richiesto di selezionare l&#39;elemento da un elenco, cercarlo o utilizzare un calendario per selezionare un intervallo di date.
 
    ![Filtro in elenchi avanzati](assets/glist-filter-with-options.png)

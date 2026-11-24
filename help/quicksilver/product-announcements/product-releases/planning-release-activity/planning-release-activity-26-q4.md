@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 5e482e130c58018d83ab8ea4ba7f219931b47bf4
+source-git-commit: 311e830b96b3b2529301f1b8350037928512d411
 workflow-type: tm+mt
-source-wordcount: '3413'
+source-wordcount: '3412'
 ht-degree: 0%
 ---
 # Attività della versione del quarto trimestre 2026 per Adobe Workfront Planning
@@ -418,7 +418,7 @@ Il pannello di raggruppamento a sinistra nella visualizzazione Corsia può esser
 
 Per informazioni, consulta [Gestire la vista timeline](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
-## Sono state migliorate le prestazioni del calendario per set di record di grandi dimensioni nella visualizzazione settimana
+## Prestazioni migliorate con il caricamento di dati incrementali nella vista calendario
 
 >[!NOTE]
 >

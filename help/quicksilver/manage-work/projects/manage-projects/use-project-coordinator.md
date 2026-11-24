@@ -4,15 +4,13 @@ content-type: reference
 description: Scopri come utilizzare Project Coordinator, un collaboratore AI pronto all’uso che monitora lo stato del progetto e dà seguito alle attività scadute.
 author: Becky
 feature: Work Management, Projects
-source-git-commit: 13403cc11448a0611ad0996ed21e1745277e9c05
+source-git-commit: ee344fe88ba7e4fb78a6d80ccbfe5cfa1ecbec47
 workflow-type: tm+mt
 source-wordcount: '513'
 ht-degree: 6%
 
 ---
 # Utilizza il collaboratore di Project Coordinator
-
-{{highlighted-preview-article-level}}
 
 Il coordinatore del progetto è un collaboratore AI pronto all’uso che monitora il progetto e informa le parti interessate in merito a importanti informazioni sullo stato.
 
