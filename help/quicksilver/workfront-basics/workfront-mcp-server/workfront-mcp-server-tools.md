@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: e748c67cff6d8ca3fd58063e48d5eec7003c1626
+source-git-commit: b836c42f007e31be8533e89cb0c2f3095c9ace9a
 workflow-type: tm+mt
-source-wordcount: '3931'
+source-wordcount: '3801'
 ht-degree: 3%
 ---
 
@@ -112,9 +112,7 @@ Non vi sono attualmente limitazioni di adesione sugli strumenti di approvazione.
 | Trova versione documento per nome | `approvals_find_document_version_by_name` | Cerca l&#39;ID versione corrente di un documento in base al nome file. Supporta le corrispondenze parziali. | Leggi |
 | Ottieni documento per ID versione | `approvals_get_document_by_version_id` | Recupera i dettagli del documento (nome, dimensione, data di caricamento, caricatore) per un ID versione documento noto. | Leggi |
 | Risolvi ambito documento | `approvals_resolve_document_scope` | Espande un progetto o una cartella nell&#39;elenco degli ID di versione del documento in esso contenuto. Supporta gli ambiti progetto, cartella e cartella per nome. | Leggi |
-| Ottieni documenti per ambito | `approvals_get_documents_by_scope` | Obsoleto. Utilizza invece `insights_find_workfront_data`. Questo strumento elencava i documenti all’interno di un progetto o di una cartella. | Leggi |
 | Elencare cartelle collegate ad AEM* | `approvals_list_aem_linked_folders` | Elenca le cartelle di documenti di Workfront collegate a Adobe Experience Manager. | Leggi |
-| Trovare un documento | `approvals_find_document` | Obsoleto. Utilizza invece `insights_find_workfront_data`. Questo strumento ha cercato un documento in base al nome file o all&#39;ID versione documento. | Leggi |
 | Invio di documenti alla cartella AEM* | `approvals_send_documents_to_aem_folder` | Sposta uno o più documenti Workfront in una cartella collegata ad AEM. | Scrittura |
 
 *Per utilizzare questi strumenti, è necessario che nell&#39;istanza Workfront sia configurata un&#39;integrazione nativa di [!DNL Adobe Experience Manager]. Per ulteriori informazioni, vedere [Panoramica delle integrazioni Adobe Experience Manager Assets](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md).
@@ -122,10 +120,6 @@ Non vi sono attualmente limitazioni di adesione sugli strumenti di approvazione.
 
 *L’invio di documenti a una cartella AEM non è ancora supportato per i progetti su Adobe Cloud Storage. Il supporto è previsto in una versione futura.
 **Questo strumento apre un pannello di caricamento interattivo nella chat, quindi funziona solo negli strumenti che supportano le app MCP. Attualmente, solo Claude è supportato per questo strumento. Per impostazione predefinita, viene visualizzato in &quot;Strumenti interattivi&quot; nelle autorizzazioni dello strumento e richiede l’approvazione.
-
-<!--
-| List AEM-linked folders* | `approvals_list_aem_linked_folders` | Lists Workfront document folders that are linked to Adobe Experience Manager. | Read |
--->
 
 ### Approvazione dei flussi di lavoro
 
@@ -141,13 +135,6 @@ Non vi sono attualmente limitazioni di adesione sugli strumenti di approvazione.
 | <span class="preview">Rimuovi fase dal percorso</span> | <span class="preview">`approvals_remove_stage_from_path`</span> | <span class="preview">Rimuove una fase non avviata da un percorso specifico in un flusso di lavoro di approvazione parallelo. Ogni percorso deve contenere almeno una fase.</span> | <span class="preview">Scrittura</span> |
 | <span class="preview">Riordina le fasi nel percorso</span> | <span class="preview">`approvals_reorder_stages_in_path`</span> | <span class="preview">Modifica l&#39;ordine delle fasi all&#39;interno di un singolo percorso di un flusso di lavoro di approvazione parallelo.</span> | <span class="preview">Scrittura</span> |
 
-<!--
-| Add and remove participants for an approval in bulk | `approvals_bulk_update_approval_participants`<br>`approvals__submit_bulk_update_approval_participants` | Adds or removes participants to or from multiple approvals at the same time. Currently, bulk updates can be applied only across a single project. Bulk updates across multiple projects will be available in the near future. | Write |
--->
-
-<!--
-| Request document approval | `approvals_request_document_approval` | Opens a guided form for requesting approval on a document version (title, approvers/reviewers, optional due date and message). | Write |
--->
 
 ### Promemoria
 
@@ -176,9 +163,6 @@ Non vi sono attualmente limitazioni di adesione sugli strumenti di approvazione.
 | Trova progetto per nome | `approvals_find_project_by_name` | Rimosso il 13 agosto 2026. Utilizza invece `insights_find_id_by_name`. Questo strumento cercava i progetti Workfront per corrispondenza parziale dei nomi nel sistema. | Leggi |
 | Ottieni progetti per proprietario | `approvals_get_projects_by_owner` | Rimosso il 13 agosto 2026. Utilizza invece `insights_find_workfront_data`. Questo strumento elencava i progetti Workfront di cui era proprietario l’utente chiamante. | Leggi |
 | Ottieni utente corrente | `approvals_get_current_user` | Rimosso il 13 agosto 2026. Questo strumento ha restituito l&#39;identità Workfront dell&#39;utente chiamante, inclusi nome, ID utente, nome team predefinito e ID team predefinito. Per funzionalità simili, vedere [Ottieni utente corrente](#insights-tools) in Strumenti di approfondimento. | Leggi |
-| Trova utente per nome | `approvals_find_user_by_name` | Obsoleto. Utilizza invece `insights_search_users`. Questo strumento ha cercato l’ID di un utente Workfront per nome (corrispondenza parziale o parziale), restituendo nome, ID, e-mail, titolo e URL avatar. | Leggi |
-| Trova team per nome | `approvals_find_team_by_name` | Obsoleto. Utilizza invece `insights_find_id_by_name`. Questo strumento ha cercato l’ID di un team Workfront per nome (corrispondenza parziale o fuzzy). | Leggi |
-| Trovare i progetti | `approvals_find_projects` | Obsoleto. Utilizza invece `insights_find_workfront_data`. Questo strumento cercava progetti Workfront, facoltativamente filtrati per nome e/o limitati ai progetti di proprietà dell’utente chiamante. | Leggi |
 
 ## Strumenti di pianificazione
 
@@ -276,11 +260,9 @@ Gli strumenti del flusso di lavoro sono le azioni generiche che la piattaforma d
 
 | Titolo | Nome strumento | Funzionamento | Azione |
 | --- | --- | --- | --- |
-| Cerca oggetti | `workflow_search_any_object` | Questo strumento è stato dichiarato obsoleto. | Leggi |
 | Crea oggetto | `workflow_create_any_object` | Crea un nuovo oggetto Workfront, ad esempio un progetto, un&#39;attività, un problema, un&#39;ora, un&#39;assegnazione, un programma o un portfolio. | Scrittura |
 | Aggiorna oggetto | `workflow_update_any_object` | Aggiorna i campi di un oggetto esistente. È inoltre possibile spostare un’attività o un problema in un altro progetto, convertire un’attività o un problema in un nuovo progetto (o un problema in un’attività) e impostare i predecessori delle attività (dipendenze). | Scrittura |
 | Elimina oggetto | `workflow_delete_any_object` | Elimina un oggetto Workfront in base all&#39;ID. Richiede una conferma utente esplicita prima di eseguire l’azione. | Scrittura |
-| Risolvi nomi campi | `workflow_resolve_field_names_any_object` | Questo strumento è stato dichiarato obsoleto. | Leggi |
 | Leggi documenti flusso di lavoro | `workflow_read_workflow_docs` | Carica la documentazione di Workfront Workflow, incluse le guide di utilizzo degli strumenti e i playbook operativi specifici per gli oggetti. Questo è il primo passaggio richiesto prima di eseguire le azioni del flusso di lavoro. | Leggi |
 
 ### Aggiornare le capacità dello strumento oggetto
