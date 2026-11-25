@@ -22,9 +22,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: fca74d916d6b5cf6529da411e4debd7d376fb0a9
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '1073'
 ht-degree: 0%
 ---
 # Risolvere i problemi relativi a Adobe Cloud Drive
@@ -165,6 +165,41 @@ Per informazioni sull&#39;utilizzo di Adobe Cloud Drive, vedi [Utilizzare Adobe 
 
 * Per creare, rinominare o eliminare un progetto, utilizza l’interfaccia web di Workfront.
 * Chiedi al proprietario del progetto di condividerlo con te con l’accesso di modifica.
+
+<!-- Courtney check me: Three new troubleshooting entries below added for Adobe Cloud Drive v1.2.0, per helpxNewFeature.pdf. The PDF's solution wording was minimal, so verify steps and macOS menu paths. -->
+
+### L’opzione Carica nel cloud non è disponibile
+
+**Possibili cause:**
+
+* In Mac, Adobe Cloud Drive Finder Helper non è abilitato.
+
+**Soluzioni:**
+
+* In Mac, vai a **Impostazioni di sistema** > **Generale** > **Accedi a elementi ed estensioni** e assicurati che Adobe Cloud Drive Finder Helper sia abilitato.
+
+### I caricamenti da desktop, documenti o download non vanno a buon fine e presentano un errore di autorizzazione (Mac)
+
+**Possibili cause:**
+
+* Adobe Cloud Drive non dispone delle autorizzazioni necessarie per accedere alle cartelle Desktop, Documenti o Download.
+* Le autorizzazioni di accesso alla cartella richieste sono disabilitate nelle impostazioni di macOS.
+
+**Soluzioni:**
+
+1. Vai a **Impostazioni di sistema** > **Privacy e sicurezza** > **File e cartelle**.
+1. Concedi a Adobe Cloud Drive l’accesso alle cartelle pertinenti.
+1. Riprova a caricare.
+
+### Vengono visualizzati più processi di sincronizzazione del Finder (Mac)
+
+**Possibili cause:**
+
+* macOS potrebbe visualizzare da due a tre processi di sincronizzazione di Adobe Cloud Drive Finder in Activity Monitor come parte del normale funzionamento.
+
+**Soluzioni:**
+
+* Non è richiesta alcuna azione. È previsto che vengano eseguiti due o tre processi di sincronizzazione di Adobe Cloud Drive Finder.
 
 ## Ottieni aiuto
 
