@@ -6,10 +6,10 @@ description: In qualità di amministratore di Adobe Workfront, puoi configurare 
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: ee344fe88ba7e4fb78a6d80ccbfe5cfa1ecbec47
+source-git-commit: c95c5a71a2706d4ddbf3e53a579b348bd072a04e
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 8%
+source-wordcount: '377'
+ht-degree: 7%
 ---
 # Configurare i collaboratori IA predefiniti
 
@@ -71,6 +71,10 @@ Per ulteriori informazioni, vedere [Panoramica di CX Enterprise Coworker in Work
 ### Coordinatore acquisizione {#intake-coordinator}
 
 Il coordinatore dell’acquisizione controlla i dettagli, i moduli personalizzati e gli allegati delle richieste di informazioni mancanti, non chiare o incoerenti. Pubblica feedback o apporta modifiche con l’approvazione dell’utente.
+
+>[!NOTE]
+>
+>È possibile assegnare il coordinatore di assunzione a una regola di instradamento quando la regola viene creata, ma non è possibile assegnarlo in un secondo momento.
 
 <!--
 ### Context Carrier {#context-carrier}
