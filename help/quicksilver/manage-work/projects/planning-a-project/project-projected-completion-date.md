@@ -29,13 +29,11 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 962b08d0dfbc06a69f82559a10876fdab60167f4
 workflow-type: tm+mt
-source-wordcount: 869
+source-wordcount: '885'
 ht-degree: 5%
-
 ---
-
 # Panoramica sulla data di completamento prevista per progetti, attività e problemi
 
 <!-- Audited: 11/2025 -->
@@ -93,14 +91,14 @@ I criteri utilizzati per determinare la data di completamento prevista variano a
 
 * **Attività:** La data di completamento prevista per le attività è determinata in base ai seguenti criteri:
 
-   * **Aggiornamenti dell&#39;avanzamento effettuati sull&#39;attività dall&#39;assegnatario dell&#39;attività:** Gli aggiornamenti dell&#39;avanzamento includono modifiche alla percentuale di completamento e modifiche allo stato dell&#39;attività.
-   * **Data commit:** Se l&#39;assegnatario dell&#39;attività specifica una data di commit, la data di completamento prevista viene modificata in modo da corrispondere alla data di commit.
+  * **Aggiornamenti dell&#39;avanzamento effettuati sull&#39;attività dall&#39;assegnatario dell&#39;attività:** Gli aggiornamenti dell&#39;avanzamento includono modifiche alla percentuale di completamento e modifiche allo stato dell&#39;attività.
+  * **Data commit:** Se l&#39;assegnatario dell&#39;attività specifica una data di commit, la data di completamento prevista viene modificata in modo da corrispondere alla data di commit. Questo non modifica la Data di completamento pianificata del problema.
 
-     Per ulteriori informazioni sulle date di conferma, vedere l&#39;articolo [Panoramica sulla data di conferma](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+    Per ulteriori informazioni sulle date di conferma, vedere l&#39;articolo [Panoramica sulla data di conferma](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
-   * **Predecessori:** Se non si verificano ritardi nelle attività predecessori, la Data di completamento prevista deve corrispondere alla Data di completamento pianificata. Quando si verificano ritardi, le attività dipendenti visualizzano una Data di completamento prevista successiva alla Data di completamento pianificata.
+  * **Predecessori:** Se non si verificano ritardi nelle attività predecessori, la Data di completamento prevista deve corrispondere alla Data di completamento pianificata. Quando si verificano ritardi, le attività dipendenti visualizzano una Data di completamento prevista successiva alla Data di completamento pianificata.
 
-     Per ulteriori informazioni sulla data di completamento pianificata delle attività, vedere [Panoramica sulla data di completamento pianificata dell&#39;attività](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
+    Per ulteriori informazioni sulla data di completamento pianificata delle attività, vedere [Panoramica sulla data di completamento pianificata dell&#39;attività](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
 
   >[!IMPORTANT]
   >
@@ -111,7 +109,9 @@ I criteri utilizzati per determinare la data di completamento prevista variano a
 
 * **Problemi:** la data di completamento prevista del problema è inizialmente impostata per corrispondere alla data di completamento pianificata del problema.
 
-  Se l’assegnatario del problema specifica una data di commit, sia la Data di completamento prevista che la Data di completamento pianificata vengono modificate in modo da corrispondere alla Data di commit.
+  Se l’assegnatario del problema specifica una data di commit, la Data di completamento prevista viene modificata in modo da corrispondere alla Data di commit. Questo non modifica la Data di completamento pianificata del problema.
+
+  <!--Old statement - retired on Nov 25, 2026: If the issue assignee specifies a commit date, both the Projected Completion Date and the Planned Completion Date changes to match the Commit Date. This does not change the Planned Completion Date of the issue.-->
 
   Per ulteriori informazioni sulle date di conferma, vedere l&#39;articolo [Panoramica sulla data di conferma](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 

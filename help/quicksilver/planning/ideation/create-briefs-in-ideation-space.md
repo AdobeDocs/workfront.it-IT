@@ -18,9 +18,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 95af5acdd910c0cbafd019dfe9f5397331d7370b
+source-git-commit: f826fcc29be7293fe13b40d8e55e2d412341b615
 workflow-type: tm+mt
-source-wordcount: '2224'
+source-wordcount: '2386'
 ht-degree: 1%
 ---
 
@@ -159,7 +159,7 @@ Or
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 
@@ -179,15 +179,23 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
    * Vai al **menu principale** ![menu principale](assets/main-menu-lines.png) > fai clic su **spazio ideazione**
 
+     Verrà aperta l&#39;area **Home** dello spazio ideazioni.
+
      ![Spazio ideazione nel menu principale](assets/ideation-space-area-icon-in-main-menu.png)
 
    * Vai a **Menu principale** ![Menu principale](assets/main-menu-lines.png) > **Planning** > fai clic su un&#39;area di lavoro > fai clic su un tipo di record > fai clic su **Nuovo record** > fai clic su **Avvia spazio ideazione**
+
+     Viene aperta una nuova area di lavoro immediatamente connessa a un nuovo record.
 
      ![Spazio ideazione nel nuovo record](assets/ideation-space-in-planning-new-record.png)
 
    * Vai a **Menu principale** ![Menu principale](assets/main-menu-lines.png) > **Planning** > fai clic su un&#39;area di lavoro > fai clic su un tipo di record > fai clic su un record esistente > fai clic su **Apri in Spazio ideazione**
 
+     Viene aperta l&#39;area di lavoro connessa al record selezionato.
+
      ![Spazio ideazione nei dettagli record](assets/ideation-space-button-in-details-page.png)
+
+     Per ulteriori informazioni sulla creazione di record di Planning utilizzando lo spazio ideazione, vedere [Creare record di Planning dalle descrizioni dello spazio ideazione](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md).
 
      >[!IMPORTANT]
      >
@@ -200,24 +208,39 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
      >* Quando la avvii dal menu principale di Workfront, la descrizione contiene campi e informazioni provenienti dai file caricati nell’area di lavoro.
 
 1. Leggere il contratto beta e fare clic su **Accetto**. È necessario firmare il contratto per utilizzare lo spazio ideazione.
+1. (Condizionale) Se si è effettuato l&#39;accesso allo spazio ideazione dal **menu principale** e si è aperta l&#39;area **Home** dello spazio ideazione, eseguire una delle operazioni seguenti per aprire un&#39;area di lavoro ideazione:
 
-   Viene aperta l’area di lavoro Spazio ideazione (Ideation space), con il titolo predefinito dopo il formato seguente:
+   * Fai clic su un’area di lavoro aperta di recente nella parte superiore della pagina per aprirla
+   * Fai clic su **Avvia una nuova area di lavoro** per aprirne una nuova e iniziare a creare una descrizione
 
-   `catalyze-canvas-< number > - Month date, year at time` <!--submitted bug to change the default name to "Untitled ideation"-->
+     Viene aperta l’area di lavoro Spazio ideazione (Ideation space) e la nuova ideazione viene automaticamente denominata dopo il seguente formato:
 
-   Per ulteriori informazioni sulla creazione di record utilizzando lo spazio ideazione, vedere [Creare record di Planning dalle descrizioni dello spazio ideazione](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md).
+     `Untitled ideation - Month date, year at time`
 
-1. (Condizionale) Per aprire una descrizione esistente in Spazio ideazione, accedi a Workfront con Planning dove Collaboratore è stato attivato ed effettua una delle seguenti operazioni:
+     ![Area di lavoro di ideazione vuota con riepilogo ridotto a icona e Collaboratore](assets/empty-ideation-space-with-brief-minimized.png)
+   * Cerca le tele esistenti nell&#39;angolo superiore destro dell&#39;elenco **Tutte le tele**, quindi fai clic su di esse quando compaiono nell&#39;elenco
 
-   * Vai a **Menu principale** ![Menu principale](assets/main-menu-lines.png) > **Planning** > fai clic su un&#39;area di lavoro > fai clic su un tipo di record > fai clic su un record esistente > **Apri in Spazio ideazione**
+     ![Area Home dello spazio ideazioni](assets/ideation-space-home-area.png)
 
-     Il nome dell’idea corrisponde al nome del record.
+     >[!TIP]
+     >
+     >Non tutte le tele nell&#39;area Home dello spazio ideazione sono collegate ai record di Planning.
+
+1. (Facoltativo) Nell&#39;area **Tutte le aree di lavoro** eseguire una delle operazioni seguenti:
+
+   * Fai clic su **Aggiorna** ![Icona Aggiorna](assets/refresh-icon.png) per rinnovare l&#39;elenco di tutte le aree di lavoro disponibili.
+   * Fai clic sull&#39;icona **scheda** ![Scheda](assets/card-icon.png) per visualizzare le tele disponibili come schede.
+   * Fai clic sull&#39;icona **elenco** ![Elenco](assets/list-icon.png) per visualizzare le tele disponibili in una vista a elenco.
+1. (Facoltativo) Da un&#39;area di lavoro aperta, fai clic sull&#39;icona **Home** ![Icona Home dello spazio ideazione](assets/ideation-space-home-icon.png) nell&#39;area superiore sinistra dello schermo per tornare all&#39;area **Home dello spazio ideazione**.
+
+   >[!TIP]
+   >
+   >L&#39;icona Home di Ideation space ![Icona Home di Ideation space](assets/ideation-space-home-icon.png) è disponibile in qualsiasi area di lavoro, anche quando è stata aperta da Workfront Planning.
 
 1. (Opzione consigliata) Fare clic sul nome dell&#39;ideazione per modificarlo, se è stata aperta per la prima volta.
 
-1. (Condizionale e facoltativo) Per aprire un altro spazio ideazione esistente, fai clic sul menu a discesa a destra del nome dell’ideazione, cercalo per nome, quindi fai clic sull’ideazione quando viene visualizzata nell’elenco.
+1. (Condizionale e facoltativo) Per aprire un’altra area di lavoro esistente, fai clic sul menu a discesa a destra del nome dell’idea, cercalo per nome, quindi fai clic sull’idea quando viene visualizzata nell’elenco.
 
-   Viene aperto lo **spazio ideazione** e Collaboratore a destra.
 1. Utilizza il prompt di Collaborator per descrivere il tipo di resoconto che desideri creare.
 
    Ad esempio, digita &quot;Creare una campagna di ritorno a scuola per gli studenti delle scuole medie fino al mese di agosto, per genitori e insegnanti negli Stati Uniti&quot;.  Per rendere il resoconto il più completo possibile, indica quante più informazioni hai a disposizione per quale tipo di campagna, la timeline, le parti interessate, i punti di controllo per le approvazioni e altri dettagli.
@@ -245,7 +268,7 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
 1. (Facoltativo) Fai clic sull&#39;icona **Chat** ![Chat](assets/chats-icon-coworker.png) nell&#39;angolo superiore destro del pannello Collaboratore, quindi fai clic su **Nuova chat** per aprire un nuovo prompt o su una delle chat precedenti nell&#39;elenco per tornare a una precedente.
 
-   Per informazioni dettagliate sulle chat, consulta [Gestire le chat](https://experienceleague.adobe.com/it/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#manage-your-chats) nella documentazione di Adobe CX Enterprise Coworker.
+   Per informazioni dettagliate sulle chat, consulta [Gestire le chat](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#manage-your-chats) nella documentazione di Adobe CX Enterprise Coworker.
 
 1. Fai clic sull&#39;icona **Ricerca** ![Icona Ricerca](assets/search-icon.png) per cercare gli elementi nell&#39;area di lavoro di ideazione, quindi fai clic su quando viene visualizzato nell&#39;elenco per passare a tale area.
 

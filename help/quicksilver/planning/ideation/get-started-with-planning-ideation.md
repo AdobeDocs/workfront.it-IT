@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 11d5c57468270943e5b8a9fecf3b65af507e2c75
+source-git-commit: f826fcc29be7293fe13b40d8e55e2d412341b615
 workflow-type: tm+mt
-source-wordcount: '1540'
+source-wordcount: '1588'
 ht-degree: 0%
 ---
 
@@ -169,6 +169,11 @@ Per accedere allo spazio ideazione:
    * [Accesso necessario per utilizzare lo spazio ideazione](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)
    * [Crea record di Planning dalle descrizioni dello spazio ideazione](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)
    * [Crea slip nello spazio ideazione](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)
+1. Accettare il contratto Beta.
+
+   Questo è un requisito durante il programma beta. Non puoi usare lo spazio di ideazione senza accettare i termini del programma beta.
+
+   Quando si accetta il contratto, l&#39;utente lo fa per l&#39;utente e non per l&#39;organizzazione. Ogni utente deve accettare il contratto singolarmente.
 
 1. (Consigliato) Identifica la tua prima campagna: una recente da aggiornare o una nuova iniziativa da creare da zero.
 
@@ -323,10 +328,10 @@ Worth noting
 <!--
 ## Additional resources
 
-* [Adobe Workfront Campaign Planning](https://business.adobe.com/it/products/workfront/campaign-planning.html)
+* [Adobe Workfront Campaign Planning](https://business.adobe.com/products/workfront/campaign-planning.html)
 * [Adobe Workfront Planning documentation](/help/quicksilver/planning/planning-information.md)
-* [Adobe GenStudio Overview](https://business.adobe.com/it/products/genstudio.html)
-* [Adobe Customer Journey Analytics](https://business.adobe.com/it/products/adobe-analytics/customer-journey-analytics.html)
+* [Adobe GenStudio Overview](https://business.adobe.com/products/genstudio.html)
+* [Adobe Customer Journey Analytics](https://business.adobe.com/products/adobe-analytics/customer-journey-analytics.html)
 
 -->
 

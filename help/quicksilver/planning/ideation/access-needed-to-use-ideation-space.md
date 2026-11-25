@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
+source-git-commit: f826fcc29be7293fe13b40d8e55e2d412341b615
 workflow-type: tm+mt
-source-wordcount: '969'
+source-wordcount: '1017'
 ht-degree: 1%
 ---
 
@@ -159,6 +159,9 @@ Per accedere allo spazio ideazione in Workfront sono necessarie le seguenti impo
     >
     >Per informazioni, vedere [Creare e modificare livelli di accesso personalizzati](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
+* Accettare il contratto Beta
+
+  Questo è un requisito durante il programma beta. Non puoi usare lo spazio di ideazione senza accettare i termini del programma beta. Quando si accetta il contratto, l&#39;utente lo fa per l&#39;utente e non per l&#39;organizzazione. Ogni utente deve accettare il contratto singolarmente.
 
 
 ## Requisiti di licenza

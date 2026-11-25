@@ -24,13 +24,11 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: f826fcc29be7293fe13b40d8e55e2d412341b615
 workflow-type: tm+mt
-source-wordcount: 422
+source-wordcount: '438'
 ht-degree: 9%
-
 ---
-
 # Interazioni tra la data impegno e la data di completamento pianificata
 
 <!--
@@ -73,7 +71,8 @@ L’assegnatario che lavora sull’attività o sul problema può aggiornare manu
 >
 >Solo l’assegnatario può aggiornare la Data di conferma di un’attività o di un problema.
 
-L’assegnatario che modifica la Data di conferma non modifica automaticamente la Data di completamento pianificata. Anche il contrario è vero: la modifica della Data di completamento pianificata non modificherà la Data impegno.
+
+L’assegnatario dell’attività o del problema che modifica la Data di conferma non modifica automaticamente la Data di completamento pianificata. Anche il contrario è vero: la modifica della Data di completamento pianificata non modificherà la Data impegno. La data di completamento prevista cambia anche quando l’assegnatario aggiorna la data di commit.
 
 Quando la Data di conferma cambia, il proprietario del progetto riceve una notifica in-app di Workfront che indica che la modifica si è verificata.
 
