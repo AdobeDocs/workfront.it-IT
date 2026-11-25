@@ -21,10 +21,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c16dc2b8b508f71767999aec7029664f5d31f23f
 workflow-type: tm+mt
-source-wordcount: '1723'
-ht-degree: 2%
+source-wordcount: '3955'
+ht-degree: 1%
 ---
 # Usa Adobe Cloud Drive
 
@@ -123,6 +123,17 @@ Quando si verifica un errore o un problema di sincronizzazione, passa il cursore
 >
 >Gli errori a livello di sistema, ad esempio disconnesso, errore di autenticazione, rete non disponibile, disco locale pieno o archiviazione cloud piena, vengono visualizzati nella barra delle applicazioni (Windows) o nella barra dei menu (Mac), non in singoli file.
 
+### Sincronizza elenco di esclusione
+
+Adobe Cloud Drive esclude alcuni file generati dal sistema, temporanei e di blocco dalla sincronizzazione. Sono esclusi i seguenti tipi di file e pattern:
+
+| Categoria | Tipi di file/pattern | Descrizione |
+|---|---|---|
+| File di sistema | `.DS_Store`, `Thumbs.db` | Metadati del sistema operativo e file della cache delle miniature. |
+| File di sistema e di memoria virtuale | `*.sys` (ad esempio `hiberfil.sys`, `pagefile.sys`, `swapfile.sys`) | File di sistema di grandi dimensioni utilizzati per la memoria virtuale, la sospensione o altre funzioni del sistema operativo. |
+| File di indicizzazione macOS | `.Spotlight-V100`, `.fseventsd` | File di indicizzazione degli eventi di macOS Spotlight e di tracciamento degli eventi del file system. |
+| File temporanei e di backup | `*.tmp`, `*.swp`, `*~`, `*.bak` | File temporanei, temporanei o di backup generati dalle applicazioni. |
+
 ## Apri un file
 
 1. In Adobe Cloud Drive, accedi al file.
@@ -206,6 +217,235 @@ Puoi copiare un file da Adobe Cloud Drive nell’unità locale. L’originale ri
 >[!NOTE]
 >
 >I file copiati nell&#39;archivio locale sono copie indipendenti. Le modifiche apportate a una copia locale non vengono sincronizzate con l’archiviazione cloud di Adobe.
+
+<!-- Courtney check me: New sections below (Upload to Cloud through Open in Workfront) added for Adobe Cloud Drive v1.2.0, per helpxNewFeature.pdf from Pulkit Goel. Verify content, placement, and heading order. -->
+
+## Caricare file nel cloud (caricamento diretto) {#direct-upload}
+
+<!-- Courtney check me: Source PDF calls this "Upload to Cloud (Direct Upload)". Confirm heading wording. -->
+
+Il caricamento diretto invia i file dal computer direttamente all’archiviazione cloud di Adobe, senza prima copiarli nella cartella Adobe Cloud Drive.
+
+<!-- Courtney check me: Removed folder mentions from the Direct Upload section (intro, heading, step 1, 500-file bullet, hidden files bullet, and the Sync Activity link text), per Pulkit: folder support isn't available yet. Confirm nothing else should change. -->
+
+### Caricare i file
+
+1. Fare clic con il pulsante destro del mouse su un file nel Finder (Mac) o in Esplora file (Windows).
+1. Seleziona **Carica nel cloud**.
+1. Nel selettore di destinazione, seleziona una posizione all&#39;interno di uno dei progetti in Adobe Cloud Drive, quindi fai clic su **Carica qui**.
+1. Monitora l&#39;avanzamento nella sezione **Caricamento diretto** della finestra Attività di sincronizzazione.
+
+### Aspetti da considerare per il caricamento diretto
+
+* Il caricamento diretto copia l’elemento nel cloud. L&#39;elemento originale rimane nella posizione corrente.
+* Puoi selezionare più elementi da caricare contemporaneamente.
+* La sezione Caricamento diretto elenca solo i singoli file, fino a un massimo di 500.
+* È possibile caricare elementi dalla home directory utente o da qualsiasi unità esterna collegata. Altre posizioni di archiviazione cloud, come iCloud Drive o `~/Library/CloudStorage`, non sono supportate.
+* Devi effettuare l&#39;accesso con un account Adobe abilitato. Non è necessaria una connessione Internet per avviare un caricamento. Senza una connessione, i caricamenti rimangono in coda.
+* La sospensione della sincronizzazione annulla i caricamenti in corso. I caricamenti in coda vengono ripresi automaticamente quando si riprende la sincronizzazione.
+* Se esci da Adobe Cloud Drive durante un caricamento, i caricamenti in corso vengono contrassegnati come annullati. I caricamenti in coda riprendono automaticamente al riavvio dell&#39;app.
+* I file nascosti, i collegamenti simbolici e gli alias non sono supportati.
+* Adobe Cloud Drive controlla quanti caricamenti vengono eseguiti contemporaneamente. I caricamenti rimanenti rimangono in coda finché non diventa disponibile uno slot.
+* Viene visualizzato un conteggio live dei caricamenti, inclusi quelli non riusciti, ad esempio &quot;3 file in caricamento&quot;. Quando tutti i caricamenti vengono completati correttamente, il conteggio cambia in un riepilogo come &quot;3 file caricati&quot;. Seleziona **Ignora** per rimuoverlo.
+
+<!-- Courtney check me: "Pausing sync cancels uploads in progress" and the quit behavior are from the PDF. Confirm with dev that both are intended. -->
+
+### Stato caricamento
+
+<!-- Courtney check me: Icons extracted from the PDF (48x48 px, low resolution) and named by table order. Verify each icon matches its status and ask Pulkit's team for higher-resolution originals. Add alt text review too. -->
+
+| Icona | Stato | Descrizione | Azioni disponibili |
+| --- | --- | --- | --- |
+| ![Icona in coda](assets/acd-upload-status-queued.png) | In coda | Il caricamento è in attesa di inizio. | **Annulla** annulla questo elemento. |
+| ![Icona caricamento](assets/acd-upload-status-uploading.png) | Caricamento | Caricamento in corso. | **Annulla** annulla questo elemento. |
+| ![Icona Completato](assets/acd-upload-status-completed.png) | Completato | Caricamento completato. | **Apri in Workfront** apre la risorsa nell&#39;interfaccia Web di Workfront. |
+| ![Icona non riuscita](assets/acd-upload-status-failed.png) | Non riuscito | Impossibile completare il caricamento. | **Mostra file di origine** rivela il file originale. **Riprova** ritenta il caricamento. Il nuovo tentativo è disponibile solo per alcuni errori. |
+| ![Icona annullata](assets/acd-upload-status-cancelled.png) | Annullato | Il caricamento è stato interrotto da te o dal sistema. | Nessuno. I caricamenti annullati non vengono ritentati. Devi avviare un nuovo caricamento. |
+
+Per visualizzare il motivo di un errore, passa il cursore sull’elemento non riuscito.
+
+### Gestire l’elenco di caricamento
+
+Ogni azione è disponibile solo quando applicabile.
+
+* **Annulla tutti i caricamenti:** Disponibile quando i caricamenti sono in coda o in corso. Cancella tutti.
+* **Nuovi tentativi di caricamento non riusciti:** Sono disponibili caricamenti non riusciti che è possibile ritentare. Tenta di eseguire tutte le operazioni. I caricamenti che non possono essere ritentati rimangono invariati.
+* **Cancella:** disponibile quando non sono presenti caricamenti in coda o in corso. Rimuove tutti gli elementi completati, non riusciti e annullati. I file locali e il contenuto già caricato non sono interessati.
+* **Cancellazione automatica:** gli elementi completati, non riusciti e annullati vengono rimossi automaticamente 24 ore dopo l&#39;ultimo aggiornamento. Gli elementi in coda e in corso non vengono mai rimossi automaticamente.
+
+## Sospendi e riprendi sincronizzazione {#pause-resume-sync}
+
+È possibile mettere in pausa Adobe Cloud Drive quando non si desidera caricare o scaricare file, ad esempio con una connessione Internet lenta o a consumo. Quando la sincronizzazione è in pausa, le modifiche non vengono inviate al cloud e le modifiche dal cloud non vengono scaricate nel computer. La sincronizzazione rimane in pausa fino a quando non viene ripresa.
+
+### Sospendi sincronizzazione
+
+1. Fai clic sull’icona Adobe Cloud Drive nella barra delle applicazioni (Windows) o nella barra dei menu (Mac).
+1. Fai clic sull&#39;icona **Menu** (≡) nell&#39;angolo in alto a destra della finestra di Adobe Cloud Drive.
+1. Selezionare **Sospendi sincronizzazione**.
+
+   >[!TIP]
+   >
+   >Con la finestra Adobe Cloud Drive aperta, puoi anche premere Ctrl+P (Windows) o Comando+P (Mac).
+
+   Nella finestra di Adobe Cloud Drive viene visualizzato **Sincronizzazione sospesa** e il messaggio **I file non verranno sincronizzati fino alla ripresa**. Quando passi il cursore sull&#39;icona Adobe Cloud Drive, viene visualizzato **Adobe Cloud Drive (in pausa)**.
+
+>[!NOTE]
+>
+>Sospendi sincronizzazione è disponibile solo quando hai effettuato l’accesso e Adobe Cloud Drive è connesso.
+
+### Riprendi sincronizzazione
+
+1. Fai clic sull’icona Adobe Cloud Drive nella barra delle applicazioni (Windows) o nella barra dei menu (Mac).
+1. Esegui una delle operazioni seguenti:
+
+   * Fare clic su **Riprendi**.
+   * Fai clic sull&#39;icona **Menu** (≡), quindi seleziona **Riprendi sincronizzazione**. Con la finestra aperta, è anche possibile premere Ctrl+R (Windows) o Comando+R (Mac).
+
+   Adobe Cloud Drive riavvia la sincronizzazione, incluse eventuali modifiche apportate durante la sospensione della sincronizzazione.
+
+## Visualizzare e gestire la cronologia delle versioni {#version-history}
+
+È possibile utilizzare Cronologia versioni in Adobe Cloud Drive per sfogliare le versioni salvate di un file supportato nel cloud, visualizzare i dettagli e le miniature delle versioni e ripristinare una versione precedente. Se disponi delle autorizzazioni necessarie, puoi anche modificare il nome e la descrizione di una versione.
+
+### Visualizza cronologia versioni
+
+1. Vai alla cartella Adobe Cloud Drive nel Finder o in Esplora file.
+1. Seleziona un file supportato.
+1. Fare clic con il pulsante destro del mouse sul file e selezionare **Cronologia versioni**.
+1. Seleziona una versione per visualizzarne i dettagli e la miniatura disponibili.
+
+   Se il file non contiene versioni precedenti, **Non sono presenti versioni precedenti**. Le miniature potrebbero non essere disponibili per tutti i file o le versioni.
+
+### Modifica informazioni versione
+
+1. Apri Cronologia versioni per il file.
+1. Seleziona la versione da aggiornare.
+1. Apri il menu delle opzioni della versione e seleziona **Modifica informazioni sulla versione**.
+1. Immettere un nome di **versione** o una **descrizione**.
+1. Seleziona **Salva**.
+
+   Le informazioni aggiornate vengono salvate e visualizzate quando si riapre Cronologia versioni.
+
+### Ripristina una versione precedente
+
+1. Apri Cronologia versioni per il file.
+1. Seleziona la versione da ripristinare.
+1. Selezionare **Ripristina questa versione**, se disponibile.
+1. Attendere il completamento della sincronizzazione.
+1. Riapri il file per verificare che il contenuto della versione selezionata sia ora corrente.
+
+## Gestione archiviazione locale {#manage-local-storage}
+
+È possibile utilizzare Gestione archiviazione locale in Adobe Cloud Drive per monitorare l&#39;utilizzo del disco locale, impostare un limite di archiviazione e visualizzare i file contrassegnati come **Sempre su questo dispositivo**.
+
+<!-- Courtney check me: PDF says "Always on this device" here but this article uses "Always Keep On This Device" for the right-click option. Confirm which label the UI shows in each place. -->
+
+### Visualizzazione dell&#39;utilizzo dello storage locale
+
+1. Seleziona l’icona Adobe Cloud Drive e apri il relativo menu delle opzioni.
+1. Selezionare **Gestione archiviazione locale**.
+1. Esaminare l&#39;utilizzo dello spazio di archiviazione corrente e l&#39;elenco dei file contrassegnati come **Sempre in questo dispositivo**.
+1. Ordinare l&#39;elenco dei file in base a **Nome** o **Dimensione** per trovare file specifici.
+
+### Modificare il limite di archiviazione locale
+
+1. Apri **Gestisci archiviazione locale** dal menu delle opzioni di Adobe Cloud Drive.
+1. Immetti il limite di archiviazione desiderato.
+1. Seleziona **Salva** per applicare la modifica.
+
+>[!NOTE]
+>
+>Quando si imposta il limite di archiviazione, assicurarsi che nel dispositivo sia disponibile spazio su disco sufficiente.
+
+## Visualizza attività di sincronizzazione {#sync-activity}
+
+L’attività di sincronizzazione mostra un’attività recente tra la cartella Adobe Cloud Drive sul computer e l’archiviazione cloud Adobe. Utilizzala per monitorare caricamenti e download, esaminare le modifiche completate e identificare gli elementi che non sono stati sincronizzati.
+
+### Visualizza attività di sincronizzazione
+
+1. Seleziona l’icona Adobe Cloud Drive nella barra dei menu (Mac) o nell’area di notifica (Windows).
+1. Espandi la sezione dell’attività di sincronizzazione utilizzando la freccia accanto al riepilogo dello stato.
+1. Esamina le voci elencate e i relativi indicatori di stato. Passa il puntatore del mouse su un indicatore di stato per visualizzare l’avanzamento del trasferimento, l’operazione completata o un messaggio di errore.
+1. Seleziona il menu Azioni accanto a un elemento per visualizzare le azioni disponibili per tale elemento.
+
+### Informazioni sull’attività di sincronizzazione
+
+* La sincronizzazione normale tiene traccia delle modifiche apportate tramite la cartella Adobe Cloud Drive, inclusi caricamenti, download, creazioni, ridenominazioni, spostamenti ed eliminazioni.
+* L&#39;elenco di sincronizzazione normale contiene fino a 500 voci recenti. Le voci nuove o aggiornate vengono visualizzate nella parte superiore. Le voci meno recenti potrebbero essere rimosse quando l&#39;elenco raggiunge il limite.
+* Una voce può inizialmente visualizzare **Preparazione in corso...** durante la risoluzione del nome o dei metadati.
+* Nel riepilogo viene visualizzato il numero di elementi attualmente sincronizzati. **Sincronizzazione completata** indica che non sono attualmente attivi elementi. Analizzare l&#39;elenco per gli elementi non riusciti o esclusi, anziché considerare questo riepilogo come una conferma del completamento di ogni elemento.
+* I file e le cartelle esclusi dalla sincronizzazione possono essere visualizzati con un errore che spiega il nome non supportato, il tipo non supportato o un altro motivo di esclusione.
+* L&#39;attività viene cancellata alla disconnessione. L’elenco è una visualizzazione dell’attività, non una cronologia di controllo permanente.
+
+### Stato sincronizzazione
+
+<!-- Courtney check me: The PDF has two sync status tables (page 7 with 4 statuses, page 8 with 3 statuses and icons). I used the page 8 icons with the page 7 descriptions where they overlap. Confirm and decide whether to keep both tables. -->
+
+| Icona | Stato | Descrizione | Azioni disponibili |
+| --- | --- | --- | --- |
+| Indicatore di attesa | In attesa di sincronizzazione | L&#39;elemento è in attesa dell&#39;inizio dell&#39;operazione. | **Mostra nel Finder** (Mac) o **Mostra in Explorer** (Windows), se applicabile. |
+| ![Icona caricamento](assets/acd-sync-status-uploading.png) | Caricamento/Download | È in corso il trasferimento del contenuto del file. Passa il cursore del mouse sull’indicatore per vedere la direzione e la percentuale di trasferimento, se disponibili. Al 100%, la descrizione comando potrebbe mostrare **Finalizzazione in corso...** fino al completamento dell&#39;elaborazione. | **Mostra nel Finder** o **Mostra in Explorer**, se applicabile. |
+| ![Icona Completato](assets/acd-sync-status-completed.png) | Operazione sincronizzata/completata | Operazione completata. La descrizione comando può identificare caricato, scaricato, creato, rinominato, rinominato nel cloud, spostato, eliminato o eliminato nel cloud. | **Mostra nel Finder** o **Mostra in Explorer** per gli elementi non eliminati. **Apri in Workfront** per gli elementi idonei completati, non eliminati. |
+| ![Icona non riuscita](assets/acd-sync-status-failed.png) | Sincronizzazione non riuscita/esclusa | L&#39;elemento non può essere sincronizzato o è escluso dalla sincronizzazione. Passa il cursore del mouse sull’indicatore del motivo. | **Mostra nel Finder** o **Mostra in Explorer**, se applicabile. Risolvi il problema segnalato prima di prevedere la sincronizzazione dell’elemento. |
+
+Gli elementi eliminati non possono essere rivelati localmente o aperti in Workfront dalla voce della loro attività.
+
+### Gestire l’elenco delle attività
+
+| Azione | Descrizione |
+| --- | --- |
+| Espandi o comprimi | Utilizzare la freccia accanto al riepilogo di sincronizzazione per mostrare o nascondere singole voci. |
+| Mostra nel Finder / Mostra in Explorer | Individua un elemento non eliminato nella cartella Adobe Cloud Drive. |
+| Apri in Workfront | Apri un elemento idoneo completato in Workfront nel browser. Questa azione non è disponibile per le voci di sincronizzazione normale attive, non riuscite o eliminate. |
+| Cancella | Disponibile quando non sono attivi elementi di sincronizzazione normale. Cancella le voci completate, incluse quelle non riuscite, dalla vista attività. La cronologia di cancellazione non elimina i file locali o il contenuto cloud e non risolve un errore di sincronizzazione. |
+| Ignora | Dopo aver cancellato un batch completato, potrebbe essere visualizzato un riepilogo degli elementi sincronizzati. Seleziona il relativo pulsante Chiudi per ignorare il riepilogo. |
+
+>[!NOTE]
+>
+>Le righe con sincronizzazione normale non forniscono le azioni **Riprova** o **Annulla** per elemento utilizzate dal caricamento diretto. Per informazioni sul caricamento diretto, vedere [Caricamento di file nel cloud (caricamento diretto)](#direct-upload).
+
+## Apri un elemento in Workfront {#open-in-workfront}
+
+Apri in Workfront consente di passare da un elemento in Adobe Cloud Drive alla posizione corrispondente in Workfront nel browser. Utilizzalo per continuare a lavorare con l’elemento cloud in Workfront senza cercarlo manualmente.
+
+### Aprire un elemento dal Finder o da Esplora file
+
+1. Apri la cartella Adobe Cloud Drive nel Finder (Mac) o in Esplora file (Windows).
+1. Selezionare un singolo file o una singola cartella associata a un elemento di Workfront.
+1. Fare clic con il pulsante destro del mouse sull&#39;elemento e selezionare **Apri in Workfront**.
+
+   Il browser apre la posizione Workfront corrispondente. Se richiesto, accedi con un account che abbia accesso a tale elemento.
+
+### Apri un elemento dall’attività di sincronizzazione
+
+1. Seleziona l’icona Adobe Cloud Drive nella barra dei menu (Mac) o nell’area di notifica (Windows).
+1. Espandi la sezione dell’attività di sincronizzazione.
+1. Per un elemento idoneo completato e non eliminato, aprire il menu Azioni aggiuntive e selezionare **Apri in Workfront**.
+1. Per un file caricato tramite Caricamento diretto, utilizza la stessa azione nella voce completata nella sezione **Caricamento diretto**.
+
+### Informazioni su Open in Workfront
+
+* Selezionare un solo elemento alla volta. L&#39;apertura di più elementi selezionati in Workfront non è supportata.
+* In Esplora file, il comando è nascosto per gli elementi esterni alla cartella Adobe Cloud Drive e per la directory principale dell&#39;unità stessa. Viene disattivato quando si selezionano più elementi.
+* Un elemento deve avere una posizione Workfront corrispondente. Alcune cartelle o altri elementi potrebbero non avere una mappatura Workfront, anche se sono visibili in Adobe Cloud Drive.
+* È possibile che un nuovo elemento locale non ancora caricato non disponga di un collegamento Workfront. Prima di riprovare, attendi il completamento del caricamento.
+* Nella normale attività di sincronizzazione, l’azione viene offerta solo per le voci completate idonee. Non è disponibile per le voci attive, non riuscite o eliminate.
+* In Caricamento diretto, l’azione è disponibile per i caricamenti completati, non per le voci in coda, caricate, non riuscite o annullate.
+* Devi aver effettuato l&#39;accesso ad Adobe Cloud Drive. Workfront potrebbe anche richiedere di accedere separatamente nel browser e le autorizzazioni Workfront sono ancora valide.
+* Per recuperare un collegamento non memorizzato nella cache e accedere a Workfront è necessaria una connessione Internet. Un collegamento risolto in precedenza non fornisce accesso offline a Workfront.
+* Questa azione apre Workfront in un browser. Il file non viene aperto nell&#39;applicazione desktop, non viene caricata un&#39;altra copia né viene modificata la disponibilità offline locale.
+
+### Apri in disponibilità Workfront
+
+| Elemento o stato | Apri in Workfront, comportamento | Cosa fare |
+| --- | --- | --- |
+| Singolo elemento idoneo in Adobe Cloud Drive | Apre la posizione Workfront corrispondente. | Seleziona **Apri in Workfront**. |
+| Più elementi selezionati | L’apertura di più elementi non è supportata. Esplora file disattiva il comando. | Seleziona un singolo elemento. |
+| Nuovo elemento ancora in caricamento | Il collegamento Workfront potrebbe non essere ancora disponibile. | Attendi il completamento del caricamento, quindi riprova. |
+| Voce di sincronizzazione normale completata | Disponibile quando l&#39;elemento è idoneo e non è stato eliminato. | Utilizzare il menu Azioni aggiuntive della voce. |
+| Voce di caricamento diretto completata | Disponibile al termine del caricamento. | Utilizzare il menu Azioni aggiuntive della voce. |
+| Elemento senza mappatura Workfront | Un messaggio indica che l&#39;elemento non è disponibile in Workfront. | Controlla l’elemento direttamente in Workfront o scegli un altro elemento supportato. |
+| Voce normale sincronizzata eliminata | Azione non disponibile. | Utilizza direttamente Workfront se devi analizzare l’elemento eliminato. |
 
 ## Esci da Adobe Cloud Drive
 

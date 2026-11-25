@@ -22,9 +22,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 686609dc5a220316ee2d39fd815d152dda43d03c
 workflow-type: tm+mt
-source-wordcount: '3139'
+source-wordcount: '3206'
 ht-degree: 1%
 ---
 # Configurare e gestire Adobe Cloud Drive per la tua organizzazione
@@ -222,9 +222,13 @@ Per creare il pacchetto in Adobe Admin Console:
    ![Passaggio Scegli app nella procedura guidata del pacchetto](assets/choose-apps-step-in-wizard.png)
 
 1. Fai clic su **Next** (Avanti).
-1. Nel passaggio **Opzioni**, fai clic su **Avanti** senza selezionare alcuna opzione.
+1. Nel passaggio **Opzioni**, fai clic su **Disattiva aggiornamento per gli utenti finali** per impedire agli utenti di aggiornare l&#39;applicazione stessi, oppure fai clic su **Avanti** senza selezionare alcuna opzione.
 
-   Queste impostazioni si applicano alle applicazioni desktop Creative Cloud e non a Adobe Cloud Drive.
+   <!-- Courtney check me: Removed the old sentence saying Options settings don't apply to Adobe Cloud Drive, which contradicted the Disable update for end-users option. Added the note Pulkit requested. Confirm wording, and whether the note duplicates step text above. -->
+
+   >[!NOTE]
+   >
+   >Per impedire agli utenti finali di aggiornare l&#39;applicazione, selezionare **Disattiva aggiornamento per gli utenti finali** nel passaggio **Opzioni**. Le altre impostazioni di questo passaggio si applicano alle applicazioni desktop Creative Cloud e non a Adobe Cloud Drive.
 
    ![Passaggi delle opzioni nella procedura guidata del pacchetto](assets/options-step-in-wizard.png)
 
@@ -238,6 +242,10 @@ Per creare il pacchetto in Adobe Admin Console:
    ![Pacchetto in preparazione dello stato](assets/package-is-preparing.png)
 
 1. Fai clic su **Scarica** e salva il file del pacchetto nel percorso scelto.
+
+   >[!NOTE]
+   >
+   >Il collegamento per il download del pacchetto e l’utilità di download scadono 3 giorni dopo la creazione del pacchetto. Tuttavia, il file .pkg o .zip scaricato non scade e può essere utilizzato per l’installazione in un secondo momento.
 
 ### Metodo B: Download diretto self-service da Software Distribution
 
