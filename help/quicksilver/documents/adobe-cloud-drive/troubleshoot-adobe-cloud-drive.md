@@ -22,7 +22,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: fca74d916d6b5cf6529da411e4debd7d376fb0a9
+source-git-commit: 19e1a78a32429ddba173583bf56af8acc5d72eb0
 workflow-type: tm+mt
 source-wordcount: '1073'
 ht-degree: 0%
@@ -214,3 +214,4 @@ Per condividere i registri con il supporto di Adobe, segui i passaggi descritti 
 * **Segui la struttura di cartelle del progetto.** Organizza i file all’interno delle cartelle di progetto secondo le intenzioni del proprietario del progetto.
 * **Utilizzare nomi di file descrittivi.** Aiutare i membri del team a trovare ciò di cui hanno bisogno.
 * **Evita di creare duplicati.** Non creare copie non necessarie dei file.
+

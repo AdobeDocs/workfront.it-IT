@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: fb5bc6f0563c8009b4b4496ffceef621c89c660c
+source-git-commit: f826fcc29be7293fe13b40d8e55e2d412341b615
 workflow-type: tm+mt
-source-wordcount: '4357'
+source-wordcount: '4376'
 ht-degree: 2%
 ---
 # Gestire la vista tabella
@@ -328,7 +328,7 @@ L&#39;aggiunta di colonne a una visualizzazione è identica all&#39;aggiunta di 
 
 1. (Condizionale) A seconda dei tipi di campi visualizzati, effettua una delle seguenti operazioni:
 
-   * Per i campi numerici, di valuta, di percentuale e di formula formattati come qualsiasi di questi tipi di campo, espandere il menu a discesa dell&#39;aggregatore nella parte inferiore delle colonne e selezionare una delle opzioni seguenti:
+   * Per i campi di tipo numero, valuta, percentuale e formula formattati come qualsiasi di questi tipi di campo, espandere il menu a discesa dell&#39;aggregatore nella parte inferiore delle colonne <!--<span class="preview">or at the bottom of a grouping</span>--> e selezionare una delle opzioni seguenti:
 
      * **SOMMA**: visualizza il totale di tutte le celle della colonna.
      * **MIN**: visualizza il valore più basso da tutte le celle della colonna.
@@ -362,6 +362,7 @@ L&#39;aggiunta di colonne a una visualizzazione è identica all&#39;aggiunta di 
      * Ultima modifica eseguita da
      * ID record
    * I campi formula e i campi di ricerca hanno gli aggregatori che corrispondono al loro formato di campo.
+   * Gli aggregatori mostrano i risultati quando si calcolano tutti i record caricati sullo schermo e non tutti i record disponibili.
 
 
 

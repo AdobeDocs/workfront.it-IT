@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 71c1855166c2f950509cc8b7dc63792eabb6de16
+source-git-commit: f826fcc29be7293fe13b40d8e55e2d412341b615
 workflow-type: tm+mt
-source-wordcount: '14768'
+source-wordcount: '14776'
 ht-degree: 90%
 ---
 # Guida di Workfront {#using}
@@ -2231,7 +2231,7 @@ ht-degree: 90%
   * Rapporti di Adobe Workfront Planning {#adobe-workfront-planning-reporting}
     * [Rapporti di Adobe Workfront Planning: indice articolo](planning/reporting/reporting-in-planning-article-index.md)
     * [Visualizzare le informazioni di Workfront Planning nei rapporti](planning/reporting/planning-information-in-reports.md)
-    * {hide-from-toc}[Connessione dati Workfront per Workfront Planning](planning/reporting/planning-in-data-connect.md)
+    * {hide-from-toc}[Workfront Data Connect per Workfront Planning](planning/reporting/planning-in-data-connect.md)
   * Best practice di pianificazione di Adobe Workfront {#adobe-workfront-planning-best-practices}
     * [best practice di Adobe Workfront: indice degli articoli](planning/best-practices.md/best-practices-article-index.md)
     * [Rollout della tua home strategica: un modulo di lancio di 30 giorni](planning/best-practices.md/30-day-launchpad.md)
@@ -2342,6 +2342,7 @@ ht-degree: 90%
     * [Gestione dei team in Adobe Workfront Planning come prodotto standalone](planning/planning-sta/manage-teams-in-planning-sta.md)
   * Ideation space in Workfront Planning {#ideation}
     * [Spazio ideazione per Adobe Workfront Planning: indice articolo](planning/ideation/planning-ideation-article-index.md)
+    * [Spazio ideazione per l’attività di rilascio di Adobe Workfront Planning](planning/ideation/ideation-space-release-notes.md)
     * [Introduzione allo spazio ideazione per Adobe Workfront Planning](planning/ideation/get-started-with-planning-ideation.md)
     * [Accesso necessario per utilizzare lo spazio ideazione](planning/ideation/access-needed-to-use-ideation-space.md)
     * [Creare slip nello spazio ideazione](planning/ideation/create-briefs-in-ideation-space.md)

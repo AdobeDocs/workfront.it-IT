@@ -11,9 +11,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 11d5c57468270943e5b8a9fecf3b65af507e2c75
+source-git-commit: f826fcc29be7293fe13b40d8e55e2d412341b615
 workflow-type: tm+mt
-source-wordcount: '1161'
+source-wordcount: '1212'
 ht-degree: 0%
 ---
 
@@ -200,6 +200,11 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
 
    ![Nuova casella di record con pulsante Apri spazio ideazione](assets/new-record-creation-picker-with-ideation.png)
 
+   >[!TIP]
+   >
+   >È inoltre possibile accedere allo spazio Ideazione per creare record dal menu principale di Workfront. Per informazioni, consulta [Creare resoconti nello spazio ideazione](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md).
+
+
 1. Leggere il contratto beta e fare clic su **Accetto**. È necessario firmare il contratto per utilizzare lo spazio ideazione.
 
    Si verificano le seguenti situazioni:
@@ -216,6 +221,7 @@ Per ulteriori informazioni sui requisiti di accesso a Workfront, vedere [Requisi
     1. (Optional) Click the **Open previous canvases** icon ![Open existing briefs icon](assets/open-existing-briefs-icon.png) in the upper-right corner of the prompt box, to open existing briefs
     -->
 
+1. (Facoltativo) Fai clic sull&#39;icona **Home** ![Icona Home dello spazio ideazione](assets/ideation-space-home-icon.png) nell&#39;angolo superiore sinistro dell&#39;area di lavoro per aprire l&#39;area **Home dello spazio ideazione** e accedere a un&#39;altra area di lavoro.
 1. (Facoltativo) Passa il puntatore del mouse sul tag **Workfront Planning** nell&#39;angolo superiore destro dell&#39;area di lavoro Spazio ideazione per visualizzare il nome del tipo di record, l&#39;area di lavoro per la quale si sta creando un record e il numero di versione del documento che si sta creando.
 
    ![Area di lavoro di Workfront Planning e tag di informazioni sul tipo di record all&#39;interno dell&#39;area di lavoro](assets/workfront-planning-with-ercord-type-and-workspace-name-tag-inside-canvas.png)
